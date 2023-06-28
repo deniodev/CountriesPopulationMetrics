@@ -176,7 +176,6 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Improve the UI]**
 
 
 
