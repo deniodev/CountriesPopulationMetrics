@@ -29,7 +29,7 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b>Gym-Exercises</b></h3>
+  <h3><b>Countries Population Metrics</b></h3>
 
 </div>
 
@@ -41,7 +41,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo & Video Presentation](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -58,11 +58,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Gym-Exercises <a name="about-project"></a>
+# 📖 Countries Population Metrics <a name="about-project"></a>
 
-**Gym-Exercises** "is a SPA website for all Gym fans. It enables users to access the full information about many different Gym Exercises. Information is added and accessed through a Exercises DB API.
+**"Countries Population Metrics"** is a robust React-based Single Page Application (SPA) that empowers you to explore comprehensive population metrics for countries worldwide. With its intuitive interface and powerful data visualization tools, you will swiftly and effortlessly access the latest population data for every country on the planet.
 
-## 🛠 Built With <a name="built-with">React</a>
+## 🛠 Built With 
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -73,6 +73,7 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="">ReactJS</a></li>
     <li><a href="">Redux</a></li>
+    <li><a href="">Bootstrap</a></li>
   </ul>
 </details>
 
@@ -85,6 +86,7 @@ After you're finished please remove all the comments and instructions!
 
 - **[Use of GitFlow]**
 - **[Fetch API Data]**
+- **[Responsive Design]**
 
 
 
@@ -92,9 +94,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo & Video Presentation<a name="live-demo"></a>
 
-- [Live Demo Link](Not yet deployed)
+- [Live Demo Link](https://starlit-rabanadas-2792d7.netlify.app/)
+- [Video Presentation Link](not yet)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -124,7 +127,7 @@ Example command:
 Clone this repository to your desired folder:
 
   cd my-folder
-  git clone git@github.com:deniodev/Gym-Exercises.git
+  git clone git@github.com:deniodev/Countries-Population-Metrics.git
 
 
 ### Install
@@ -146,6 +149,7 @@ You can run tests to check for linter errors by running the following commands: 
 
 npx stylelint "**/*.{css,scss}" for testing css errors
 npx eslint "**/*.{js,jsx}" for Javascript errors
+npm test 
 
 
 ### Deployment
@@ -175,9 +179,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-
-
+**Filter Countries by Continent**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
