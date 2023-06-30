@@ -30,7 +30,8 @@ After you're finished please remove all the comments and instructions!
   <br/>
 
   <h3><b>Countries Population Metrics</b></h3>
-  ![collage](https://github.com/deniodev/Countries-Population-Metrics/assets/92977776/e87043ce-7e75-4916-b5ae-e4d7e3031002)
+   
+![collage](https://github.com/deniodev/Countries-Population-Metrics/assets/92977776/83d29491-d359-40f9-99ec-c65d6e6e1bd5)
 
 </div>
 
