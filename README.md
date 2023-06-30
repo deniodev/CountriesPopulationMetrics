@@ -30,6 +30,7 @@ After you're finished please remove all the comments and instructions!
   <br/>
 
   <h3><b>Countries Population Metrics</b></h3>
+  ![collage](https://github.com/deniodev/Countries-Population-Metrics/assets/92977776/e87043ce-7e75-4916-b5ae-e4d7e3031002)
 
 </div>
 
@@ -208,6 +209,7 @@ If you like this project you can recommend to your friend, family and colleagues
 
 
 **I would like to thank microverse for guiding and providing with all great material to do my projects**
+**Design of the Webapp is inspired by Nelson Sakwa's Ballhead App.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
