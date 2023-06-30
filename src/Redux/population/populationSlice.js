@@ -1,14 +1,11 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import axios from 'axios';
 
 const Endpoint = 'https://restcountries.com/v2/all';
 
 export const fetchApi = createAsyncThunk('country/fetch', async () => {
-  const response = await axios.get(Endpoint);
-  if (response.data) {
-    return response.data;
-  }
-  return [];
+  const response = await fetch(Endpoint);
+  const data = await response.json();
+  return data;
 });
 
 const populationSlice = createSlice({
