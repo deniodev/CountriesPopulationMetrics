@@ -51,14 +51,17 @@ const CountryList = () => {
 
   return (
     <>
-      <input
-        className="search-input"
-        type="text"
-        value={search}
-        aria-label="search"
-        onChange={handleChange}
-        placeholder="Search a country..."
-      />
+      <div className={styles.banner}>
+        <input
+          className="search-input"
+          type="text"
+          value={search}
+          aria-label="search"
+          onChange={handleChange}
+          placeholder="Search a country..."
+        />
+      </div>
+
       <div className={styles.countryContainer}>
 
         <ul className={styles.countrylist}>

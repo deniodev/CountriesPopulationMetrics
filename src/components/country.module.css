@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40vh;
+  width: 100vw;
+  background-image: url(../image/map.png);
+  background-position: 25% 75%;
+  background-size: cover;
+}
+
 input {
   margin-top: 10px;
   margin-bottom: 5px;
@@ -123,6 +134,10 @@ p {
 }
 
 @media (max-width: 768px) {
+  .banner {
+    height: 30vh;
+  }
+
   .countryContainer {
     display: inline-flex;
   }
