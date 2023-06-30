@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Col } from 'react-bootstrap';
-import styles from '../App.css';
+import styles from './country.module.css';
 
 const Country = (props) => {
   const { country, detailed } = props;
@@ -16,7 +16,7 @@ const Country = (props) => {
         <div className={styles.descp}>
           <h4>{name}</h4>
           <p>
-            {detailed && 'Poplution: '}
+            {detailed && 'Population: '}
             {population}
           </p>
         </div>

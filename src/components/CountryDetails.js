@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { BsArrowRightCircle } from 'react-icons/bs';
 import Country from './Country';
-import styles from '../App.css';
+import styles from './countryDetails.module.css';
 
 const CountryDetail = (props) => {
   const { country } = props;

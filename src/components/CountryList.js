@@ -5,7 +5,7 @@ import { BsArrowRightCircle } from 'react-icons/bs';
 import ReactPaginate from 'react-paginate';
 import { fetchApi } from '../Redux/population/populationSlice';
 import Country from './Country';
-import styles from '../App.css';
+import styles from './country.module.css';
 
 const CountryList = () => {
   const countryList = useSelector((state) => state.populationSlice.countryList);
@@ -51,8 +51,6 @@ const CountryList = () => {
 
   return (
     <>
-      <h2 className={styles.statsheading}>Stats by Country Name</h2>
-
       <input
         className="search-input"
         type="text"
