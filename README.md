@@ -99,7 +99,7 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo & Video Presentation<a name="live-demo"></a>
 
 - [Live Demo Link](https://starlit-rabanadas-2792d7.netlify.app/)
-- [Video Presentation Link](not yet)
+- [Video Presentation Link](https://www.loom.com/share/a4e102ea9b3c4a06b9ccd2181c61c3d4?sid=6b975202-afd4-406a-b03b-06d06ef86c85)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
