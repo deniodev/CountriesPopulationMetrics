@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40vh;
+  width: 100vw;
+  background-image: url(../image/map.png);
+  background-position: 25% 75%;
+  background-size: cover;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #fff;
+  border: 2px solid #00008a;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 190px;
+}
+
+input::placeholder {
+  color: #fff;
+  opacity: 0.5;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  margin: 10px;
+  background: #0000c9;
+  padding: 10px;
+  width: 300px;
+  height: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 11px 8px #00008a;
+}
+
+ul,
+li {
+  list-style: none;
+  color: white;
+}
+
+.list {
+  margin: -15px 0;
+}
+
+.descp {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  left: 20px;
+}
+
+.descp h4,
+p {
+  color: #fff;
+}
+
+.descp p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.descpDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.countryContainer .pagination {
+  display: flex;
+  position: fixed;
+  top: 95%;
+  align-items: center;
+  justify-content: center;
+  left: 44%;
+}
+
+.countrylist {
+  color: white;
+  font-size: 17px;
+  display: flex;
+  flex-flow: wrap;
+  margin: 5px 40px;
+  justify-content: center;
+}
+
+.flag {
+  width: 150px;
+  align-self: flex-start;
+  display: flex;
+  border-radius: 10px;
+}
+
+.direct {
+  font-size: x-large;
+  position: relative;
+  top: 45px;
+  left: 135px;
+  width: 22px;
+}
+
+.singleCountry {
+  color: white;
+  text-decoration: none;
+}
+
+.statsheading {
+  display: flex;
+  margin: 5px 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.pagination a {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 25%;
+  cursor: pointer;
+}
+
+.pagination .active {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 30vh;
+  }
+
+  .countryContainer {
+    display: inline-flex;
+  }
+
+  .countrylist {
+    display: grid;
+    grid-template-columns: 0.5fr 0.75fr;
+    margin: 1px;
+  }
+
+  .countryContainer .pagination {
+    left: 25%;
+    font-size: 0.8rem;
+  }
+
+  .card {
+    width: 150px;
+    margin: 3px;
+  }
+
+  .direct {
+    top: 38px;
+    left: 65px;
+  }
+
+  .searchBar {
+    margin: 10px;
+  }
+
+  .statsheading {
+    margin: 8px;
+    font-size: 16px;
+  }
+
+  .descp p {
+    font-size: 11px;
+  }
+
+  .flag {
+    width: 100px;
+  }
+}
