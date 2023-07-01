@@ -39,14 +39,18 @@ Array [
         </div>
       </div>
     </div>
-    <input
-      aria-label="search"
-      className="search-input"
-      onChange={[Function]}
-      placeholder="Search a country..."
-      type="text"
-      value=""
-    />
+    <div
+      className="banner"
+    >
+      <input
+        aria-label="search"
+        className="search-input"
+        onChange={[Function]}
+        placeholder="Search a country..."
+        type="text"
+        value=""
+      />
+    </div>
     <div
       className="countryContainer"
     >
