@@ -124,7 +124,6 @@ p {
 .pagination a {
   margin: 0 0.5rem;
   padding: 0.5rem;
-  border: 2px solid #ccc;
   border-radius: 25%;
   cursor: pointer;
 }
@@ -135,7 +134,7 @@ p {
 
 @media (max-width: 768px) {
   .banner {
-    height: 30vh;
+    height: 20vh;
   }
 
   .countryContainer {
@@ -154,7 +153,8 @@ p {
   }
 
   .card {
-    width: 150px;
+    width: 160px;
+    height: 160px;
     margin: 3px;
   }
 
