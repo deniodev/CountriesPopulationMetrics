@@ -75,7 +75,7 @@ const CountryList = () => {
               </li>
             ))
           ) : (
-            <p className="max-width flex-center">No matching countries found.</p>
+            <p className="max-width flex-center">Loading....</p>
           )}
         </ul>
         {/* Pagination component */}
