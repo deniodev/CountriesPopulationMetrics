@@ -2,7 +2,6 @@ import React from 'react';
 import { Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import '../App.css';
 import { IoIosArrowBack, IoMdSettings } from 'react-icons/io';
 import styles from './Navbar.module.css';
 
