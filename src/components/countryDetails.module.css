@@ -44,7 +44,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
 }
 
 .rowDetails:nth-of-type(odd) {
@@ -52,23 +51,20 @@ h1 {
 }
 
 .direct {
-  display: flex;
-  position: absolute;
-  right: 10px;
+  display: none;
 }
 
 @media (max-width: 768px) {
-  .rowDetails {
+  /* .rowDetails {
     justify-content: space-between;
-  }
+  } */
 
   .values {
     gap: 20px;
   }
 
   .direct {
-    position: relative;
-    right: 0;
+    display: none;
   }
 
   h1 {

@@ -41,7 +41,7 @@ input::placeholder {
 }
 
 .direct {
- display: none;
+  display: none;
 }
 
 ul,
@@ -127,10 +127,7 @@ p {
 }
 
 .pagination a {
-  margin: 0 0.5rem;
-  padding: 0.5rem;
-  border-radius: 25%;
-  cursor: pointer;
+  display: none;
 }
 
 .pagination .active {
@@ -185,6 +182,6 @@ p {
   }
 
   .countrylist {
-    margin: 30px;
+    margin: 100px;
   }
 }
