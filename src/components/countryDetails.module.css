@@ -14,6 +14,12 @@
   color: #fff;
 }
 
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .detailContainer {
   display: flex;
   flex-direction: column;
@@ -38,30 +44,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
 }
 
 .rowDetails:nth-of-type(odd) {
-  background-color: #00008a;
+  background-color: bg-slate-800;
 }
 
 .direct {
-  display: flex;
-  position: absolute;
-  right: 10px;
+  display: none;
 }
 
 @media (max-width: 768px) {
-  .rowDetails {
+  /* .rowDetails {
     justify-content: space-between;
-  }
+  } */
 
   .values {
     gap: 20px;
   }
 
   .direct {
-    position: relative;
-    right: 0;
+    display: none;
+  }
+
+  h1 {
+    font-size: 5px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
   }
 }

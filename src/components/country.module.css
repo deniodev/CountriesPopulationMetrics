@@ -15,7 +15,6 @@ input {
   margin-top: 10px;
   margin-bottom: 5px;
   color: #fff;
-  border: 2px solid #00008a;
   border-radius: 10px;
   padding: 10px 25px;
   background: transparent;
@@ -31,14 +30,18 @@ input::placeholder {
 
 .card {
   margin: 10px;
-  background: #0000c9;
+  background: bg-slate-800;
   padding: 10px;
   width: 300px;
   height: 215px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 11px 8px #00008a;
+  box-shadow: 0 0 11px 8px black;
+}
+
+.direct {
+  display: none;
 }
 
 ul,
@@ -89,12 +92,14 @@ p {
   font-size: 17px;
   display: flex;
   flex-flow: wrap;
-  margin: 5px 40px;
+  margin: 30px;
+  row-gap: 30px;
   justify-content: center;
 }
 
 .flag {
-  width: 150px;
+  width: 170px;
+  padding-top: 25px;
   align-self: flex-start;
   display: flex;
   border-radius: 10px;
@@ -122,10 +127,7 @@ p {
 }
 
 .pagination a {
-  margin: 0 0.5rem;
-  padding: 0.5rem;
-  border-radius: 25%;
-  cursor: pointer;
+  display: none;
 }
 
 .pagination .active {
@@ -160,7 +162,6 @@ p {
 
   .direct {
     top: 38px;
-    left: 65px;
   }
 
   .searchBar {
@@ -178,5 +179,9 @@ p {
 
   .flag {
     width: 100px;
+  }
+
+  .countrylist {
+    margin: 100px;
   }
 }

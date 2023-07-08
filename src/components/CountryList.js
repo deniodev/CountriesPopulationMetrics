@@ -17,7 +17,7 @@ const CountryList = () => {
   const [currentPage, setCurrentPage] = useState(0);
 
   const isMobile = window.innerWidth <= 768;
-  const itemsPerPage = isMobile ? 4 : 8;
+  const itemsPerPage = isMobile ? 6 : 6;
 
   const handleChange = (e) => {
     setSearch(e.target.value.toLowerCase());
@@ -53,7 +53,7 @@ const CountryList = () => {
     <>
       <div className={styles.banner}>
         <input
-          className="search-input"
+          className="py-3 px-4 text-gray-600 placeholder-gray-600 w-full shadow rounded outline-none dark:text-gray-400 dark:placeholder-gray-400 dark:bg-gray-800 dark:focus:bg-gray-700 transition-all duration-200"
           type="text"
           value={search}
           aria-label="search"
@@ -62,7 +62,7 @@ const CountryList = () => {
         />
       </div>
 
-      <div className={styles.countryContainer}>
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 
         <ul className={styles.countrylist}>
           {displayedItems.length > 0 ? (
@@ -75,7 +75,7 @@ const CountryList = () => {
               </li>
             ))
           ) : (
-            <p className="max-width flex-center">Loading....</p>
+            <p className="text-gray-900 font-bold uppercase tracking-wide flex items-center justify-center text-center h-screen text-4xl dark:text-white">Loading....</p>
           )}
         </ul>
         {/* Pagination component */}

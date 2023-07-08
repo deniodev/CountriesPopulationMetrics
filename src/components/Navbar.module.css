@@ -1,11 +1,12 @@
 .navbar {
   display: flex;
   align-items: center;
-  background: #00008a;
+  background: bg-gray-990;
   justify-content: space-between;
   min-height: 2rem;
   padding: 0.5rem;
   color: white;
+  box-shadow: 0 0 11px 8px black;
 }
 
 .brand {

@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Col } from 'react-bootstrap';
 import styles from './country.module.css';
 
 const Country = ({ country, detailed }) => {
   const { name, population, flags } = country;
 
   return (
-    <Col className={styles.card}>
+    <div className={styles.card}>
       <div className={styles.descpDiv}>
         {flags && flags.svg && (
           <img className={styles.flag} src={flags.svg} alt={`${name} Country Images`} />
@@ -23,7 +22,7 @@ const Country = ({ country, detailed }) => {
           )}
         </div>
       </div>
-    </Col>
+    </div>
   );
 };
 
