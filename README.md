@@ -31,7 +31,8 @@ After you're finished please remove all the comments and instructions!
 
   <h3><b>Countries Population Metrics</b></h3>
    
-![Collage Maker-01-Jul-2023-01-42-PM-2370](https://github.com/deniodev/Countries-Population-Metrics/assets/92977776/23024f9a-3c91-48ee-a53b-08c40f60e1b3)
+
+![metrics](https://github.com/deniodev/Countries-Population-Metrics/assets/92977776/968d8df2-aa0f-48af-98f0-d6bf1bbfdd99)
 
 
 </div>
