@@ -31,8 +31,9 @@ After you're finished please remove all the comments and instructions!
 
   <h3><b>Countries Population Metrics</b></h3>
    
+![countries](https://github.com/deniodev/Countries-Population-Metrics/assets/92977776/fd880d0f-b996-415c-a3c7-3c2462033f5e)
 
-![metrics](https://github.com/deniodev/Countries-Population-Metrics/assets/92977776/968d8df2-aa0f-48af-98f0-d6bf1bbfdd99)
+
 
 
 </div>
