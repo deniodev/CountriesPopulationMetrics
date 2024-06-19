@@ -29,9 +29,10 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b>Countries Population Metrics</b></h3>
+  # Countries Population Metrics
    
-![countries](https://github.com/deniodev/Countries-Population-Metrics/assets/92977776/fd880d0f-b996-415c-a3c7-3c2462033f5e)
+![Untitled design2](https://github.com/deniodev/CountriesPopulationMetrics/assets/92977776/3c75a7c3-2afe-4898-9475-2831f195e86f)
+
 
 
 
